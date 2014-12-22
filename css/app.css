@@ -57,8 +57,34 @@ h4{
 	color: white;
 }
 
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3vw;
+  color: black;
+}
+
 .white-text{
 	color: white;
+}
+
+.tiny-small-text {
+  font-size: 1vw;
+}
+
+.very-small-text {
+  font-size: 1.5vw;
+}
+
+.small-text {
+  font-size: 2vw;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 .npt {
@@ -80,6 +106,29 @@ h4{
 	padding-top: 100px;
 }
 
+.npl {
+  padding-left: 0px;
+}
+.spl {
+  padding-left: 10px;
+}
+.mpl {
+  padding-left: 30px;
+}
+.lpl {
+  padding-left: 50px;
+}
+.xlpl {
+  padding-left: 70px;
+}
+.hpl {
+  padding-left: 100px;
+}
+
+.nmt {
+  margin-top: 0;
+}
+
 .bottom-right-abs{
 	transition: all 0.5s ease;
 	position: absolute;
@@ -88,41 +137,6 @@ h4{
 	background-color: #47889D;
 	padding: 10px;
 }
-
-
-/* Animations START */
-@keyframes flickerAnimation {
-  0%   { opacity:1; }
-  50%  { opacity:0.3; }
-  100% { opacity:1; }
-}
-@-o-keyframes flickerAnimation{
-  0%   { opacity:1; }
-  50%  { opacity:0.3; }
-  100% { opacity:1; }
-}
-@-moz-keyframes flickerAnimation{
-  0%   { opacity:1; }
-  50%  { opacity:0.3; }
-  100% { opacity:1; }
-}
-@-webkit-keyframes flickerAnimation{
-  0%   { opacity:1; }
-  50%  { opacity:0.3; }
-  100% { opacity:1; }
-}
-.animate-flicker {
-   -webkit-animation: flickerAnimation 5s infinite;
-   -moz-animation: flickerAnimation 5s infinite;
-   -o-animation: flickerAnimation 5s infinite;
-    animation: flickerAnimation 5s infinite;
-}
-
-/* Animations END */
-
-/*a:hover {
-	color: red;
-}*/
 
 .bottom-right-abs:hover{
 	/*color: yellow;*/
@@ -174,23 +188,17 @@ h4{
   background-color: #FF4040;
 }
 
-/* Colours END */
-
-.div-circle {
-    float: left;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1em;
-    line-height: 100px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: sans-serif;
-    position: relative;
+.background-grey{
+  background-color: #f2f2f2;;
 }
-.one { background-color: blue; }
-.two::before{ position: absolute; left: 10% }
-.two { background-color: rgba(255,0,0,0.5); margin-left: -10%; }
+
+.grey-border {
+  border: 1px solid #e8e8e8;
+}
+
+.btn-border {
+  border-radius: 15px;
+  border: 3px solid #e8e8e8;
+}
+
+/* Colours END */
