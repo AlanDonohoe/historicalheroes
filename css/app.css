@@ -133,6 +133,7 @@ p {
 	transition: all 0.5s ease;
 	position: absolute;
 	top: 45vw;
+  /*bottom: 5vw;*/
 	right: 5%;
 	background-color: #47889D;
 	padding: 10px;
